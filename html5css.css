@@ -1,0 +1,10 @@
+.effects{
+
+
+	text-shadow: 2px 4px 2px blue;
+}
+.word-wrap{
+word-wrap: break-word;
+width:250px;
+	
+	border:1px solid red;}
