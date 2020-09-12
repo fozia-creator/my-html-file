@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>confirmation box</title>
+    
+</head>
+<body>
+    <script>
+        function myfun(){
+        var userConfirmation =confirm("do you want to go to google.com");
+        if(userConfirmation==true){
+            window.open("http://www.google.com");
+            return true;
+           
+        }
+        else{ 
+        document.write("please click cancel if you do not want to visit google.com");
+        return false;}}
+    </script>
+    <input type="button" onclick="myfun()" value ="clickme">
+</body>
+</html>
